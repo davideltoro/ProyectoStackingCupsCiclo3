@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=SimulationUI
+comment0.text=\r\n\ Clase\ responsable\ EXCLUSIVAMENTE\ de\ la\ comunicaci\u00F3n\ con\ el\ usuario\r\n\ a\ trav\u00E9s\ de\ di\u00E1logos\ gr\u00E1ficos\ (JOptionPane).\r\n\r\n\ PRINCIPIO\ SRP\:\ Extrae\ la\ responsabilidad\ de\ mostrar\ mensajes\ de\r\n\ StackingCups\ y\ Tower,\ quienes\ NO\ deben\ saber\ nada\ de\ la\ UI.\r\n\r\n\ PRINCIPIO\ OCP\:\ Si\ en\ el\ futuro\ se\ cambia\ JOptionPane\ por\ una\ consola\r\n\ o\ una\ interfaz\ web,\ solo\ se\ modifica\ esta\ clase.\r\n\r\n\ @author\ Juan\ Castellanos\ -\ Juan\ Uribe\r\n\ @version\ 1.0\r\n
+comment1.params=message
+comment1.target=void\ showMessage(java.lang.String)
+comment1.text=\r\n\ Muestra\ un\ mensaje\ informativo\ gen\u00E9rico.\r\n\ @param\ message\ Texto\ del\ mensaje.\r\n
+comment2.params=message\ title
+comment2.target=void\ showInfo(java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Muestra\ un\ mensaje\ con\ t\u00EDtulo\ personalizado\ de\ tipo\ informativo.\r\n\ @param\ message\ Texto\ del\ mensaje.\r\n\ @param\ title\ \ \ T\u00EDtulo\ de\ la\ ventana\ de\ di\u00E1logo.\r\n
+comment3.params=message
+comment3.target=void\ showWarning(java.lang.String)
+comment3.text=\r\n\ Muestra\ un\ mensaje\ de\ advertencia\ (para\ errores\ de\ validaci\u00F3n).\r\n\ @param\ message\ Texto\ del\ mensaje.\r\n
+comment4.params=totalCups\ lidsCount\ noLidCount\ totalLids
+comment4.target=void\ showSimulationReport(int,\ int,\ int,\ int)
+comment4.text=\r\n\ Construye\ y\ muestra\ el\ reporte\ de\ estado\ de\ la\ simulaci\u00F3n.\r\n\ @param\ totalCups\ \ \ Total\ de\ tazas\ en\ la\ simulaci\u00F3n.\r\n\ @param\ lidsCount\ \ \ Tazas\ con\ tapa.\r\n\ @param\ noLidCount\ \ Tazas\ sin\ tapa.\r\n\ @param\ totalLids\ \ \ Total\ de\ tapas\ existentes.\r\n
+comment5.params=suggestion
+comment5.target=void\ showSwapSuggestion(java.lang.String)
+comment5.text=\r\n\ Muestra\ la\ sugerencia\ de\ optimizaci\u00F3n\ de\ la\ torre.\r\n\ @param\ suggestion\ Texto\ con\ la\ sugerencia\ calculada\ por\ Tower.\r\n
+comment6.params=
+comment6.target=void\ showFinishMessage()
+comment6.text=\r\n\ Muestra\ confirmaci\u00F3n\ de\ finalizaci\u00F3n\ de\ la\ simulaci\u00F3n.\r\n
+numComments=7
